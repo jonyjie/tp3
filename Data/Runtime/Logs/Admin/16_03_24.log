@@ -1,0 +1,461 @@
+[ 2016-03-24T09:13:31+08:00 ] 127.0.0.1 /index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2016-03-24T09:14:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/moment-2.2.1.js
+ERR: 模板不存在:./App/Admin/View/Public_404.html
+
+[ 2016-03-24T09:14:55+08:00 ] 127.0.0.1 /index.php/Admin/Auth/nodeList.html
+ERR: 模板不存在:./App/Admin/View/Auth_nodeList.html
+
+[ 2016-03-24T09:30:29+08:00 ] 127.0.0.1 /index.php/Admin/Auth/nodeList.html
+ERR: XML标签语法错误
+
+[ 2016-03-24T09:31:06+08:00 ] 127.0.0.1 /index.php/Admin/Auth/widgets.html
+ERR: 模板不存在:./App/Admin/View/Public_404.html
+
+[ 2016-03-24T09:31:13+08:00 ] 127.0.0.1 /index.php/Admin/Auth/widgets.html
+ERR: 模板不存在:./App/Admin/View/Public_404.html
+
+[ 2016-03-24T09:31:18+08:00 ] 127.0.0.1 /index.php/Admin/Auth/widgets.html
+ERR: 模板不存在:./App/Admin/View/Public_404.html
+
+[ 2016-03-24T09:55:45+08:00 ] 127.0.0.1 /index.php/Admin/Auth/nodeList.html
+ERR: 1146:Table 'tpcms.tp_auth_role' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_auth_role`
+
+[ 2016-03-24T10:11:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/moment-2.2.1.js
+ERR: 模板不存在:./App/Admin/View/Public_404.html
+
+[ 2016-03-24T11:18:37+08:00 ] 127.0.0.1 /index.php/Admin/Auth/addNode.html
+ERR: 1146:Table 'tpcms.tp_auth' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_auth`
+
+[ 2016-03-24T11:20:05+08:00 ] 127.0.0.1 /index.php/Admin/Auth/addNode.html
+ERR: 1146:Table 'tpcms.tp_auth' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_auth`
+
+[ 2016-03-24T11:20:42+08:00 ] 127.0.0.1 /index.php/Admin/Auth/addNode.html
+ERR: 1146:Table 'tpcms.tp_auth' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_auth`
+
+[ 2016-03-24T11:22:18+08:00 ] 127.0.0.1 /index.php/Admin/Auth/addNode.html
+ERR: Think\Model:addNode方法不存在！
+
+[ 2016-03-24T11:22:38+08:00 ] 127.0.0.1 /index.php/Admin/Auth/addNode.html
+ERR: 1048:Column 'status' cannot be null
+ [ SQL语句 ] : INSERT INTO `tp_auth_rule` (`name`,`type`,`status`,`condition`) VALUES ('Admin/System/index','1',NULL,'')
+
+[ 2016-03-24T12:56:41+08:00 ] 127.0.0.1 /index.php/Admin/Auth/editNode.html
+ERR: 参数错误或者未定义:id
+
+[ 2016-03-24T12:57:15+08:00 ] 127.0.0.1 /index.php/Admin/Auth/editNode/id/1.html
+ERR: 模板不存在:./App/Admin/View/Auth_editNode.html
+
+[ 2016-03-24T17:35:22+08:00 ] 127.0.0.1 /index.php/Admin/Auth/nodeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name`,`title`,`status` FROM `tp_auth_rule`  [ RunTime:0.0010s ]
+NOTIC: [8] Indirect modification of overloaded property Admin\Controller\AuthController::$nodelist has no effect D:\workfile\www\tpcms\App\Admin\Controller\AuthController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T17:35:31+08:00 ] 127.0.0.1 /index.php/Admin/Auth/nodeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`title`,`status` FROM `tp_auth_rule`  [ RunTime:0.0010s ]
+NOTIC: [8] Indirect modification of overloaded property Admin\Controller\AuthController::$nodelist has no effect D:\workfile\www\tpcms\App\Admin\Controller\AuthController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-03-24T17:35:48+08:00 ] 127.0.0.1 /index.php/Admin/Auth/nodeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`title`,`status` FROM `tp_auth_rule`  [ RunTime:0.0010s ]
+NOTIC: [8] Indirect modification of overloaded property Admin\Controller\AuthController::$nodelist has no effect D:\workfile\www\tpcms\App\Admin\Controller\AuthController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T17:36:23+08:00 ] 127.0.0.1 /index.php/Admin/Auth/nodeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name`,`title`,`status` FROM `tp_auth_rule`  [ RunTime:0.0010s ]
+NOTIC: [8] Indirect modification of overloaded property Admin\Controller\AuthController::$nodelist has no effect D:\workfile\www\tpcms\App\Admin\Controller\AuthController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-24T17:36:34+08:00 ] 127.0.0.1 /index.php/Admin/Auth/nodeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`title`,`status` FROM `tp_auth_rule`  [ RunTime:0.0010s ]
+NOTIC: [8] Indirect modification of overloaded property Admin\Controller\AuthController::$nodelist has no effect D:\workfile\www\tpcms\App\Admin\Controller\AuthController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T17:36:38+08:00 ] 127.0.0.1 /index.php/Admin/Auth/nodeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`title`,`status` FROM `tp_auth_rule`  [ RunTime:0.0000s ]
+NOTIC: [8] Indirect modification of overloaded property Admin\Controller\AuthController::$nodelist has no effect D:\workfile\www\tpcms\App\Admin\Controller\AuthController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T17:36:41+08:00 ] 127.0.0.1 /index.php/Admin/Auth/nodeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`title`,`status` FROM `tp_auth_rule`  [ RunTime:0.0010s ]
+NOTIC: [8] Indirect modification of overloaded property Admin\Controller\AuthController::$nodelist has no effect D:\workfile\www\tpcms\App\Admin\Controller\AuthController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-24T17:42:30+08:00 ] 127.0.0.1 /index.php/Admin/Auth/nodeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`title`,`status` FROM `tp_auth_rule`  [ RunTime:0.0010s ]
+NOTIC: [8] Indirect modification of overloaded property Admin\Controller\AuthController::$nodelist has no effect D:\workfile\www\tpcms\App\Admin\Controller\AuthController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-24T17:44:43+08:00 ] 127.0.0.1 /index.php/Admin/Auth/editNode/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\workfile\www\tpcms\Data\Runtime\Cache\Admin\e0e85497993ed0a99716ea9621822513.php 第 257 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-24T17:44:51+08:00 ] 127.0.0.1 /index.php/Admin/Auth/editNode/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0080s ]
+SQL: UPDATE `tp_auth_rule` SET `title`='权限管理',`name`='Admin/Auth',`type`='1',`status`='1',`condition`='' WHERE ( id = 2 ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T17:44:53+08:00 ] 127.0.0.1 /index.php/Admin/Auth/nodeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name`,`title`,`status` FROM `tp_auth_rule`  [ RunTime:0.0000s ]
+NOTIC: [8] Indirect modification of overloaded property Admin\Controller\AuthController::$nodelist has no effect D:\workfile\www\tpcms\App\Admin\Controller\AuthController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T17:55:19+08:00 ] 127.0.0.1 /index.php/Admin/Auth/editNode/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\workfile\www\tpcms\Data\Runtime\Cache\Admin\e0e85497993ed0a99716ea9621822513.php 第 257 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T18:00:43+08:00 ] 127.0.0.1 /index.php/Admin/Auth/editNode/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\workfile\www\tpcms\Data\Runtime\Cache\Admin\e0e85497993ed0a99716ea9621822513.php 第 257 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T18:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Auth/editNode/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\workfile\www\tpcms\Data\Runtime\Cache\Admin\e0e85497993ed0a99716ea9621822513.php 第 257 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T18:04:41+08:00 ] 127.0.0.1 /index.php/Admin/Auth/editNode/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\workfile\www\tpcms\Data\Runtime\Cache\Admin\e0e85497993ed0a99716ea9621822513.php 第 257 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T18:05:29+08:00 ] 127.0.0.1 /index.php/Admin/Auth/editNode/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\workfile\www\tpcms\Data\Runtime\Cache\Admin\e0e85497993ed0a99716ea9621822513.php 第 257 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T18:05:34+08:00 ] 127.0.0.1 /index.php/Admin/Auth/nodeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`title`,`status` FROM `tp_auth_rule`  [ RunTime:0.0010s ]
+NOTIC: [8] Indirect modification of overloaded property Admin\Controller\AuthController::$nodelist has no effect D:\workfile\www\tpcms\App\Admin\Controller\AuthController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-03-24T18:07:00+08:00 ] 127.0.0.1 /index.php/Admin/Auth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 模板不存在:./App/Admin/View/Public_404.html
+
+[ 2016-03-24T18:07:09+08:00 ] 127.0.0.1 /index.php/Admin/Auth/widgets.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 模板不存在:./App/Admin/View/Public_404.html
+

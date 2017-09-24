@@ -1,0 +1,87 @@
+<layout name="layout" />
+ <link href="__CSS__font-awesome.css" rel="stylesheet">        
+        <div class="col-md-12 graphs">
+	     <div class="xs">
+	     <div class="bs-example4" data-example-id="contextual-table">
+  	       <ul class="nav nav-tabs" role="tablist" id="nav_tabs">
+            	<li ><a href="{:U('Menu/index')}">菜单中心</a></li>
+            	<li ><a href="{:U('Menu/add')}">添加菜单</a></li>
+    		</ul>
+  	         <div class="tab-content">
+						<div class="tab-pane active" id="horizontal-form">
+							<form class="form-horizontal" action="{:U('Menu/edit_post')}" method="post" >
+								<input type="hidden" name="id" value="{$menu.id}" />
+				                <div class="form-group">
+
+				                  <label for="focusedinput" class="col-sm-2 control-label">菜单名称</label>
+				                  <div class="col-sm-8">
+				                    <input type="text" class="form-control1" id="focusedinput" placeholder="uer" name="name" value="{$menu.name}">
+				                  </div>
+				                  <div class="col-sm-2" style="display: none;">
+				                    <p class="help-block">Your help text!</p>
+				                  </div>
+				                </div>
+				                
+				                <div class="form-group">
+				                  <label for="focusedinput" class="col-sm-2 control-label">上级菜单</label>
+				                  <div class="col-sm-8">
+				                    <select name="parentid" class="form-control1">
+				                    	{$menuslist}
+				                    </select>
+				                  </div>
+				                  <div class="col-sm-2" style="display: none;">
+				                    <p class="help-block">Your help text!</p>
+				                  </div>
+				                </div>
+				                <div class="form-group">
+				                  <label for="focusedinput" class="col-sm-2 control-label">所在项目组</label>
+				                  <div class="col-sm-8">
+				                    <input type="text" class="form-control1" id="focusedinput" placeholder="app" name="app" value="{$menu.app}">
+				                  </div>
+				                  <div class="col-sm-2" style="display: none;">
+				                    <p class="help-block">Your help text!</p>
+				                  </div>
+				                </div>
+
+				                <div class="form-group">
+				                  <label for="focusedinput" class="col-sm-2 control-label">模块名称</label>
+				                  <div class="col-sm-8">
+				                    <input type="text" class="form-control1" id="focusedinput" placeholder="model" name="model" value="{$menu.model}">
+				                  </div>
+				                  <div class="col-sm-2" style="display: none;">
+				                    <p class="help-block">Your help text!</p>
+				                  </div>
+				                </div>
+
+				                <div class="form-group">
+				                  <label for="focusedinput" class="col-sm-2 control-label">行为名称</label>
+				                  <div class="col-sm-8">
+				                    <input type="text" class="form-control1" id="focusedinput" placeholder="uer" name="action" value="{$menu.action}">
+				                  </div>
+				                  <div class="col-sm-2" style="display: none;">
+				                    <p class="help-block">Your help text!</p>
+				                  </div>
+				                </div>
+
+				                <div class="form-group">
+				                  <label for="radio" class="col-sm-2 control-label">状态</label>
+				                  <div class="col-sm-8">
+				                    <div class="radio-inline"><label><input type="radio" name="status" value="1" <eq name='menu.status' value="1"> checked </eq>> 启用</label></div>
+				                    <div class="radio-inline"><label><input type="radio" name="status" value="0"  <eq name='menu.status' value="0"> checked </eq>> 禁用</label></div>				                    
+				                  </div>
+				                </div>
+				                
+				                <div class="form-group text-center">
+				                  <input type="submit" class="btn btn-info btn-sm col-xs-2" value=" 提交 " />                  
+				                  <a class="btn btn-default btn-sm col-xs-2  col-xs-offset-1" href="{:U('Menu/index')}" >返回</a>
+				                </div>
+				                
+				                
+				              </form>
+						</div>
+					</div> 
+				</div>
+
+  </div>
+  <include file="Public:footer"/>
+ </div>

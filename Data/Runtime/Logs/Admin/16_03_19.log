@@ -1,0 +1,154 @@
+[ 2016-03-19T10:26:46+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTEOLLER_NAME/css/bootstrap.min.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:26:46+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTEOLLER_NAME/css/bootstrap-responsive.min.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:26:46+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTEOLLER_NAME/css/matrix-login.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:26:46+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTEOLLER_NAME/font-awesome/css/font-awesome.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:26:46+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTEOLLER_NAME/js/matrix.login.js
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:26:46+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTEOLLER_NAME/js/jquery.min.js
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:27:08+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTEOLLER_NAME/css/bootstrap.min.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:27:08+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTEOLLER_NAME/css/bootstrap-responsive.min.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:27:08+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTEOLLER_NAME/css/matrix-login.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:27:08+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTEOLLER_NAME/font-awesome/css/font-awesome.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:27:41+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTROLLER_NAME/css/matrix-login.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:27:41+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTROLLER_NAME/css/bootstrap-responsive.min.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:27:41+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTROLLER_NAME/font-awesome/css/font-awesome.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:27:41+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTROLLER_NAME/js/jquery.min.js
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:27:41+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTROLLER_NAME/css/bootstrap.min.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:27:41+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/CONTROLLER_NAME/js/matrix.login.js
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:28:57+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/css/matrix-login.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:28:57+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/js/jquery.min.js
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:28:57+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/js/matrix.login.js
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:28:57+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/font-awesome/css/font-awesome.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:28:57+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/css/bootstrap.min.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:28:57+08:00 ] 127.0.0.1 /index.php/Admin/Public/Public/Admin/css/bootstrap-responsive.min.css
+ERR: 非法操作:Public
+
+[ 2016-03-19T10:32:06+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-19T10:36:08+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-19T10:40:45+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-19T10:40:47+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-19T10:40:47+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-19T10:51:17+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-19T10:51:20+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-03-19T10:51:21+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-19T10:51:21+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-03-19T10:51:22+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-19T10:51:22+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-19T10:51:23+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-19T10:51:24+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-19T10:57:06+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act=admin.login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-19T11:29:00+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act={:U(%22Public/login%22)}
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-19T11:29:44+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act={:U(%22Public/login%22)}
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-19T11:34:46+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html?act={:U(%22Public/login%22)}
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

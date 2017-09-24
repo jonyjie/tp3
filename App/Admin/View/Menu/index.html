@@ -1,0 +1,46 @@
+<layout name="layout" />
+<link href="__CSS__font-awesome.css" rel="stylesheet" />
+<script type="text/javascript" src="__JS__jquery.treetable-ajax-persist.js"></script>
+<script type="text/javascript" src="__JS__jquery.treetable-3.0.0.js"></script>
+<script type="text/javascript" src="__JS__persist-min.js"></script>
+<link href="__CSS__jquery.treetable.css" media="all" rel="stylesheet" type="text/css" />
+
+        <div class="col-md-12 graphs">
+	   <div class="xs">
+  	 <h3>Basic Tables</h3>
+  	<div class="bs-example4" data-example-id="contextual-table">
+    <ul class="nav nav-tabs" role="tablist" id="nav_tabs">
+            <li class="active"><a href="{:U('Menu/index')}">菜单管理</a></li>
+            <li ><a href="{:U('Menu/add')}">添加菜单</a></li>
+    </ul>
+    <table class="table table-striped" id="menus-table">
+      <thead>
+        <tr>
+         
+          <th scope='row'>排序</th>
+          <th>ID</th>
+          <th>应用</th>
+          <th>名称</th>
+          <th>状态</th>          
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+      {$menuslist}
+      
+      </tbody>
+    </table>
+   </div>
+  
+  </div>
+  </div>
+ <include file="Public:footer" />
+ <script type="text/javascript">
+$(document).ready(function(){
+  $("table").agikiTreeTable({persist: true, persistStoreName: "files"});
+
+});
+</script>
+      
+</div>
+

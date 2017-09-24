@@ -1,0 +1,185 @@
+<layout name="layout" />
+<link href="__CSS__font-awesome.css" rel="stylesheet"> 
+<script type="text/javascript">
+	$(document).ready(function () {
+		$('#nav_tabs a').click(function (e) {
+			  e.preventDefault()
+			  $(this).tab('show');
+			});
+	});
+</script>       
+    <div class="col-md-12 graphs">
+	    <div class="xs">
+	       <div class="bs-example4" data-example-id="contextual-table">
+	       		<form action="{:U('Setting/site_post')}" method="post"  class="form-horizontal">	       		
+	  	       <ul class="nav nav-tabs" role="tablist" id="nav_tabs">
+					<li role="presentation" class="active"><a href="#A" aria-controls="A" role="tab" id="A-tab" data-toggle="tab" aria-expanded="true">网站信息</a></li>
+					<li role="presentation"><a href="#B" aria-controls="B" role="tab" id="B-tab" data-toggle="tab" aria-expanded="false">SEO设置</a></li>
+					<li role="presentation"><a href="#C" aria-controls="C" role="tab" id="C-tab" data-toggle="tab" aria-expanded="false">URL设置</a></li>
+					<li role="presentation"><a href="#D" aria-controls="D" role="tab" id="D-tab" data-toggle="tab" aria-expanded="false">UCenter</a></li>
+	  	       </ul>
+	  	       <div id="tabContent" class="tab-content" >
+
+	  	       		<div role="tabpanel" class="tab-pane fade in active" id="A" aria-labelledby="A-tab">
+
+	  	       			<div class="form-group">
+	  	       			 <input type="hidden" name="{$oparr.web_site_title.name}[id]" value="{$oparr.web_site_title.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label ">{$oparr.web_site_title.title}</label>
+						    <div class="col-sm-10">
+						    	
+						    	<input type="text" class="form-control1" id="exampleInputEmail1" name="{$oparr.web_site_title.name}[data]" placeholder="tpcms" value="{$oparr.web_site_title.option_value}">
+						    </div>
+						</div>
+
+						<div class="form-group">
+							<input type="hidden" name="{$oparr.web_site_host.name}[id]" value="{$oparr.web_site_host.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label" > {$oparr.web_site_host.title} </label>
+						    <div class="col-sm-10">
+						    <input type="text" class="form-control1" id="exampleInputEmail1" placeholder="http://www.tpcms.cms" name="{$oparr.web_site_host.name}[data]" value="{$oparr.web_site_host.option_value}">
+						    </div>
+						</div>
+
+						<div class="form-group">
+						<input type="hidden" name="{$oparr.web_mobile_tpl.name}[id]" value="{$oparr.web_mobile_tpl.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label"> {$oparr.web_mobile_tpl.title}</label>
+						    <div class="col-sm-10">
+						    <input type="hidden" name="{$oparr.web_mobile_tpl.name}[data]" value="0" />
+						    <input type="checkbox" name="{$oparr.web_mobile_tpl.name}[data]" <eq name="oparr.web_mobile_tpl.option_value" value="1">checked</eq> value="1">
+						    </div>
+						</div>
+
+						<div class="form-group">
+						<input type="hidden" name="{$oparr.web_muban.name}[id]" value="{$oparr.web_muban.id}"> 
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label"> {$oparr.web_muban.title}</label>
+						    <div class="col-sm-10 controls">
+						    	<select class="form-control" name="{$oparr.web_muban.name}[data]">
+						    		<volist name="oparr.web_muban.extra" id="muban_ul">
+							        	<option value="{$key}" <eq name="oparr.web_muban.option_value" value="$key">selected</eq> >{$muban_ul}</option>
+							        </volist>
+							        
+							    </select>
+						    </div>
+						</div>
+
+						<div class="form-group">
+						<input type="hidden" name="{$oparr.web_site_icp.name}[id]" value="{$oparr.web_site_icp.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label">{$oparr.web_site_icp.title}</label>
+						    <div class="col-sm-10">
+						    <input type="text" class="form-control1" id="exampleInputEmail1" placeholder="鄂12-4663215" name="{$oparr.web_site_icp.name}[data]" value="{$oparr.web_site_icp.option_value}">
+						    </div>
+						</div>
+
+						<div class="form-group">
+						<input type="hidden" name="{$oparr.web_site_email.name}[id]" value="{$oparr.web_site_email.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label">{$oparr.web_site_email.title}</label>
+						    <div class="col-sm-10">
+						    <input type="text" class="form-control1" id="exampleInputEmail1" placeholder="鄂12-4663215" name="{$oparr.web_site_email.name}[data]" value="{$oparr.web_site_email.option_value}">
+						    </div>
+						</div>
+						
+						<div class="form-group">
+						<input type="hidden" name="{$oparr.web_site_tongji.name}[id]" value="{$oparr.web_site_tongji.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label">{$oparr.web_site_tongji.title}</label>
+						    <div class="col-sm-10">
+						    <textarea class="form-control1" rows="3" name="{$oparr.web_site_tongji.name}[data]">{$oparr.web_site_tongji.option_value}</textarea>
+						    </div>
+						</div>
+
+						<div class="form-group">
+						<input type="hidden" name="{$oparr.web_site_close.name}[id]" value="{$oparr.web_site_close.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label">{$oparr.web_site_close.title}</label>
+						    <div class="col-sm-10">
+						    	<input  type="hidden" name="{$oparr.web_site_close.name}[data]" value="0"/>
+						    	<input  type="checkbox" name="{$oparr.web_site_close.name}[data]" <eq name="oparr.web_site_close.option_value" value="1">checked</eq> value="1">
+						    </div>
+						</div>
+
+						<div class="form-group">
+						<input type="hidden" name="{$oparr.web_allow_register.name}[id]" value="{$oparr.web_allow_register.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label">{$oparr.web_allow_register.title}</label>
+						    <div class="col-sm-10">
+						    <input type="hidden" name="{$oparr.web_allow_register.name}[data]" value="0" />
+						    	<input type="checkbox" name="{$oparr.web_allow_register.name}[data]" <eq name="oparr.web_allow_register.option_value" value="1">checked</eq> value="1">
+						    </div>
+						</div>
+
+						<div class="form-group">
+						<input type="hidden" name="{$oparr.web_site_copyright.name}[id]" value="{$oparr.web_site_copyright.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label"> {$oparr.web_site_copyright.title}</label>
+						    <div class="col-sm-10">
+						    <textarea class="form-control1" rows="3" name="{$oparr.web_site_copyright.name}[data]">  {$oparr.web_site_copyright.option_value}</textarea>
+						    </div>
+						</div>					
+	  	       		</div>
+
+
+	  	       		<div role="tabpanel" class="tab-pane fade" id="B"  aria-labelledby="B-tab">
+	  	       			<div class="form-group">
+	  	       			<input type="hidden" name="{$oparr.web_seo_title.name}[id]" value="{$oparr.web_seo_title.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label"> {$oparr.web_seo_title.title}</label>
+						    <div class="col-sm-10">
+						    <input type="text" class="form-control1" id="exampleInputEmail1" placeholder="tpcms" name="{$oparr.web_seo_title.name}[data]" value="{$oparr.web_seo_title.option_value}">
+						    </div>
+						</div>
+
+						<div class="form-group">
+						<input type="hidden" name="{$oparr.web_seo_keyword.name}[id]" value="{$oparr.web_seo_keyword.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label" >{$oparr.web_seo_keyword.title}</label>
+						    <div class="col-sm-10">
+						    <input type="text" class="form-control1" id="exampleInputEmail1" placeholder="http://www.tpcms.cms" name="{$oparr.web_seo_keyword.name}[data]" value="{$oparr.web_seo_keyword.option_value}">
+						    </div>
+						</div>
+						<div class="form-group">
+						<input type="hidden" name="{$oparr.web_seo_description.name}[id]" value="{$oparr.web_seo_description.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label"> {$oparr.web_seo_description.title}</label>
+						    <div class="col-sm-10">
+						    <textarea class="form-control1" rows="3" name="{$oparr.web_seo_description.name}[data]">{$oparr.web_seo_description.option_value}</textarea>
+						    </div>
+						</div>
+	  	       		</div>
+	  	       		<div role="tabpanel" class="tab-pane fade" id="C"  aria-labelledby="C-tab">
+	  	       			<div class="form-group">
+	  	       			<input type="hidden" name="{$oparr.web_url_mode.name}[id]" value="{$oparr.web_url_mode.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label">{$oparr.web_url_mode.title}</label>
+						    <div class="col-sm-10">
+						    	<select id="disabledSelect" class="form-control" name="{$oparr.web_url_mode.name}[data]">
+						    		<volist name="oparr.web_url_mode.extra" id="url_mode">
+						    			<option value="{$key}" <eq name="oparr.web_url_mode.option_value" value="$key"> selected</eq> > {$url_mode}</option> 
+						    		</volist>
+							        <!-- <option>普通模式</option>
+							        <option>PATHINFO模式</option>
+							        <option>REWRITE模式</option> -->
+							    </select>
+						    </div>
+						</div>
+	  	       			<div class="form-group">
+	  	       			<input type="hidden" name="{$oparr.web_html_suffix.name}[id]" value="{$oparr.web_html_suffix.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label" >{$oparr.web_html_suffix.title}</label>
+						    <div class="col-sm-10">
+						    <input type="text" class="form-control1" id="exampleInputEmail1" placeholder="http://www.tpcms.cms" name="{$oparr.web_html_suffix.name}[data]" value="{$oparr.web_html_suffix.option_value}">
+						    </div>
+						</div>
+						
+	  	       		</div>
+	  	       		<div role="tabpanel" class="tab-pane fade" id="D"  aria-labelledby="D-tab">
+	  	       			<div class="form-group">
+	  	       			<input type="hidden" name="{$oparr.web_ucenter.name}[id]" value="{$oparr.web_ucenter.id}">
+						    <label for="exampleInputEmail1" class="col-sm-2 control-label">{$oparr.web_ucenter.title}</label>
+						    <div class="col-sm-10">
+						    	<input type="hidden" name="{$oparr.web_ucenter.name}[data]" value="0" />
+						    	<input type="checkbox" name="{$oparr.web_ucenter.name}[data]" <eq name="oparr.web_ucenter.option_value" value="1">checked</eq> value="1" >
+						    </div>
+						</div>
+	  	       		</div>
+	  	       </div>
+			   
+			   <div class="col-md-12">
+			   		<button type="submit" class="btn btn-primary">提交</button>
+			   		<button type="submit" class="btn btn-primary">返回</button>
+			   </div>
+	  	       </form>
+  	      </div>
+
+  		</div>
+	<include file="Public:footer"/>
+ 	</div>

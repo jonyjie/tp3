@@ -1,0 +1,24 @@
+<ul class="nav" id="side-menu">
+    <volist name="menus" id="vo">
+        <li>
+            <a href="{$vo.url}"><i class="fa {$vo.icon} nav_icon  "></i>{$vo.name}<span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level">
+                <volist name="vo['child']" id="vos">
+                <li>
+                    <a href="{:U($vos['url'])}">{$vos['name']} <span class="fa arrow"></span></a>
+                    <notempty name="vos['child']">
+                    <ul class="nav nav-third-level">
+                        <volist name="vos['child']" id="voc">
+                        <li><a href="{:U($voc['url'])}">{$voc.name}</a></li>
+                        </volist>
+                    </ul>
+                    </notempty>
+                </li>
+                </volist>            
+            </ul>
+            <!-- /.nav-second-level -->
+        </li>
+    </volist>
+    
+  
+</ul>

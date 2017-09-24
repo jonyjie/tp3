@@ -1,0 +1,77 @@
+<layout name="layout" />
+<link href="__CSS__font-awesome.css" rel="stylesheet">
+<script type="text/javascript" src="__JS__jquery.treetable-ajax-persist.js"></script>
+<script type="text/javascript" src="__JS__jquery.treetable-3.0.0.js"></script>
+<script type="text/javascript" src="__JS__persist-min.js"></script>
+<link href="__CSS__jquery.treetable.css" media="all" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+    table tbody tr {border-bottom:1px solid #ddd;}
+    table>tbody>tr>td{display: block;width: inherit;padding-left:30px; }
+</style>
+<div class="col-md-12 graphs">
+	   <div class="xs">
+  	 <h3>授权管理</h3>
+  	<div class="bs-example4" data-example-id="contextual-table">
+    <form action="{:U('AuthManager/authrize_post')}" method="post">
+    <input  type="hidden" name="id" value="{$gid}" />
+    <table class="table table-striped">
+
+      <tbody>
+        {$rulefile}     
+      </tbody>
+    </table>
+      <div class="form-group text-center">
+          <input type="submit" class="btn btn-info btn-sm col-xs-2" value=" 提交 " />                  
+          <a class="btn btn-default btn-sm col-xs-2  col-xs-offset-1" href="{:U('AuthManager/index')}" >返回</a>
+      </div>
+    </form>
+   </div>
+   
+
+  </div>
+  
+ <include file="Public:footer"/>
+<script type="text/javascript"> 
+    $(document).ready(function(){
+        $("table").agikiTreeTable({persist: true, persistStoreName: "files"});
+
+    });
+
+    function checknode(obj) {
+
+      var chk = $("input[type='checkbox']");
+      var count = chk.length;
+      var num = chk.index(obj);
+      
+      var level_top = level_bottom = chk.eq(num).attr('level');
+      for (var i = num; i >= 0; i--) {
+          var le = chk.eq(i).attr('level');
+          if (eval(le) < eval(level_top)) {
+              chk.eq(i).attr("checked", true);
+              var level_top = level_top - 1;
+          }
+      }
+      for (var j = num + 1; j < count; j++) {
+          var le = chk.eq(j).attr('level');
+          if (chk.eq(num).attr("checked") == "checked") {
+              if (eval(le) > eval(level_bottom)){
+                chk.eq(j).attr("checked", true);
+              }
+              else if (eval(le) == eval(level_bottom)){
+                break;
+              }
+          } else {
+              if (eval(le) > eval(level_bottom)){
+                chk.eq(j).attr("checked", false);
+              }else if(eval(le) == eval(level_bottom)){
+                break;
+              }
+          }
+      }
+    }
+</script>
+   </div>
+    
+     
+ 

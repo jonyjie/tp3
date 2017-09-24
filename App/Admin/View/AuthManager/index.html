@@ -1,0 +1,45 @@
+<layout name="layout" />
+<link href="__CSS__font-awesome.css" rel="stylesheet" /> 
+<div class="col-md-12 graphs">
+	 <div class="xs">
+  	 <h3>Basic Tables</h3>
+  	<div class="bs-example4" data-example-id="contextual-table">
+    <ul class="nav nav-tabs" role="tablist" id="nav_tabs">
+            <li class="active"><a href="{:U('AuthManager/index')}">角色中心</a></li>
+            <li ><a href="{:U('AuthManager/roleadd')}">添加角色</a></li>
+    </ul>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>全选</th>
+          <th>名称</th>
+          <th>描述</th>          
+          <th>状态</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+      <volist name="Glist" id="vo" key="ids">
+        <tr>
+          <th scope="row"><input type="checkbox" id="checkboxSuccess" value="{$vo.id}"></th>
+          <th scope="row">{$vo.title}</th>
+          <td>{$vo.remark}</td>          
+          <td><eq name="vo.status" value="1"><font color="red">√</font><else/><font color="red">╳</font></eq></td>
+          <td>
+            <a href="{:U('AuthManager/authrize?id='.$vo['id'])}" role="button" class="btn btn-warning btn-xs">访问授权</a>
+            <a href="{:U('AuthManager/roleedit',array('id'=>$vo['id']))}" role="button" class="btn btn-warning btn-xs">编辑</a>          
+            <a href="{:U('AuthManager/roledelete?id='.$vo['id'])}" role="button" class="btn btn-success btn-xs">删除</a>
+          </td>
+        </tr>
+      </volist>
+      
+      </tbody>
+    </table>
+   </div>
+  
+  </div>
+  </div>
+ <include file="Public:footer" />
+          
+</div>
+

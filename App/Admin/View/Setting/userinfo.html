@@ -1,0 +1,37 @@
+<layout name="layout" />
+ <link href="__CSS__font-awesome.css" rel="stylesheet">        
+        <div class="col-md-12 graphs">
+	     <div class="xs">
+	     <div class="bs-example4" data-example-id="contextual-table">
+  	       <ul class="nav nav-tabs" role="tablist" id="nav_tabs">
+            	<li class="active"><a href="{:U('Setting/userinfo')}">修改用户信息</a></li>
+            	<li><a href="{:U('Setting/passowrd')}">修改密码</a></li>
+    		</ul>
+  	         <div class="tab-content">
+						<div class="tab-pane active" id="horizontal-form">
+							<form class="form-horizontal" action="{:U('Menu/passowrd_post')}" method="post" 	="">
+							
+				                <div class="form-group">
+				                  <label for="focusedinput" class="col-sm-2 control-label">原密码</label>
+				                  <div class="col-sm-8">
+				                    <input type="text" class="form-control1" id="focusedinput" placeholder="uer" name="name" value="">
+				                  </div>
+				                  <div class="col-sm-2" style="display: none;">
+				                    <p class="help-block">Your help text!</p>
+				                  </div>
+				                </div>
+				                
+				                <div class="form-group text-center">
+				                  <input type="submit" class="btn btn-info btn-sm col-xs-2" value=" 提交 " />                  
+				                  <a class="btn btn-default btn-sm col-xs-2  col-xs-offset-1" href="{:U('Index/index')}" >返回</a>
+				                </div>
+				                
+				                
+				              </form>
+						</div>
+					</div> 
+				</div>
+
+  </div>
+  <include file="Public:footer"/>
+ </div>
